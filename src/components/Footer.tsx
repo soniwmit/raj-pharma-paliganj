@@ -171,7 +171,7 @@ export const Footer: React.FC<FooterProps> = ({
         {/* Bottom copyright & legal bar */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <div>
-            © {new Date().getFullYear()} <span className="text-slate-200 font-semibold">{BUSINESS_INFO.name}</span>. All rights reserved. <a href="https://main.webmakerit.com" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-medium ml-1">Developed by WMIT</a>
+            © {new Date().getFullYear()} <span className="text-slate-200 font-semibold">{BUSINESS_INFO.name}</span>. All rights reserved. <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer">Developed by WMIT</a>
           </div>
 
           <div className="flex flex-wrap items-center gap-4">
